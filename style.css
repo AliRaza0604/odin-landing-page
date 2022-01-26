@@ -95,16 +95,12 @@
 
 
 
-
-
 .image_sec{
     background-color: white;
     width: auto;
     height: 1300px;
     display: flex;
     flex-direction: column;
-    
-
 }
 
 .image_sec_desc{
@@ -148,7 +144,6 @@
     font-weight: bold;
 }
 
-
 .images img{
     margin-bottom: 10px;
     width: 350px;
@@ -169,6 +164,8 @@
     align-items: center;
     justify-content: center;
 }
+
+
 
 .qoute_content{
     padding-left: 94px;
@@ -191,14 +188,62 @@
     font-style: italic;
     color: #1f2937;
     /* align-self: flex-end; */
-
 }
+
+
 
 .contact{
     background-color: white;
     width: auto;
-    height: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contact_content{
+    width: 800px;
+    height: 400px;
+    background-color: #2c3b6a;
+    border-radius: 10px;
+    display: flex;
+}
+
+.donate{
+    border: steelblue 2px solid;
+    width: 500px;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* gap: 30px; */
+}
+
+.donate h1{
+    /* padding: 20px; */
+    padding-top: 50px;
+    padding-left: 40px;
+    color: #E5E7EB;
+    font-size: 36px;
+}
+
+.donate div{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    color: #E5E7EB;
+    font-size: 24px;
+
+}
+
+.icons{
+    border: springgreen 2px solid;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 .footer{
     background-color: #1f2937;
     width: auto;
